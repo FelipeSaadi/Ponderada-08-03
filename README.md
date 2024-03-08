@@ -54,7 +54,7 @@ Alguns dos selectors são:
 
 ## Comandos e asserções no Cypress
 
-São funcionalidades do Cypress que permitem diversas ações do Cypress com a aplicação (queries, assertions, actions e outras)
+São funcionalidades do Cypress que permitem diversas ações do Cypress com a aplicação (queries, assertions, actions e outras).
 
 Assertions: são comandos Cypress que validam estados da aplicação, pausando a aplicação até que a condição seja atendida ou que tenha chegado ao seu tempo limite. Dentre eles temos o .and() e o .should().
 
@@ -72,7 +72,7 @@ Comandos:
 
 ### Abrir o Cypress
 
-Abra o Cypress para executar as etapas posteriores
+Abra o Cypress para executar as etapas posteriores.
 
 Comandos:
 ``npx cypress open``
@@ -81,7 +81,7 @@ ou
 
 ### Adicione um arquivo de test
 
-Após rodar o comando para abrir o Cypress, será exibida a interface dele
+Após rodar o comando para abrir o Cypress, será exibida a interface dele.
 
 Sendo necessário escolher a configuração do Cypress, entre teste de componente e e2e.
 
@@ -96,14 +96,14 @@ Agora é necessário apenas seguir os passos das imagens a seguir para testar um
 
 ![image](https://github.com/FelipeSaadi/Ponderada-08-03/assets/54749257/13c1338e-8e5e-4cee-add9-14892b6d0f57)
 
-Também é possível criar testes customizados de acordo com a interface criada por meio do Scaffold examples specs
+Também é possível criar testes customizados de acordo com a interface criada por meio do Scaffold examples specs.
 
 ![image](https://github.com/FelipeSaadi/Ponderada-08-03/assets/54749257/f0abb870-59bc-4c0d-a77d-610b78d3727a)
 
 Exemplo de uma das execuções de testes criadas pelo Scaffold (testando uma tabela da interface):
 ![image](https://github.com/FelipeSaadi/Ponderada-08-03/assets/54749257/6bd8723f-8fed-4a7c-b670-dd7e10576896)
 
-Agora para fazer testes com scripts customizados, é necessário abrir o projeto em uma IDE
+Agora para fazer testes com scripts customizados, é necessário abrir o projeto em uma IDE.
 
 Acessar o arquivo .spec.cy.ts ou criar um novo.
 
@@ -129,7 +129,7 @@ Existem alguns padrões a serem seguidos dos testes para torná-los mais eficien
 - Apenas testar aplicações que temos controle, se for necessário acessar 3rd party servers, utilizar o cy.request();
 - Testes devem rodar de forma independente um do outro e ainda passar;
 - Adicionar multiplas assertions (para e2e);
-- Limpar estados antes de rodar testes;
+- Limpar estados antes de rodar testes.
 
 Como adicional (e mais importante), ao pensar na elaboração dos testes, levar em conta as regras de negócios, as funcionalidades desenvolvidas e a experiência do usuário, esses aspectos auxiliam na construção de testes que cobrem uma maior variedade de possibilidades e protegem a aplicação de possíveis falhas.
 
