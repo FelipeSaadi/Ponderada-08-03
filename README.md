@@ -42,7 +42,22 @@ Browser: Instância do navegador que executa aplicação e os testes. O Cypress 
 
 ## Seletores de elementos no Cypress
 
+São comandos de Query de elementos da DOM, permitindo ao Cypress o acesso direto ao elemento criado na UI, muito importante para a criação de testes do frontend.
+
+Alguns dos selectors são:
+- get: permite acessar elementos por Classe, Id, Atributos (Seletores CSS);
+- contains: permite acessar elementos que possuam um texto específico;
+- first, eq e last: permite acessar elementos pelo seus posicionamento, o primeiro encontrado, o igual ao índice passado, e o último encontrado;
+- next: permite acessar o próximo elemento ao anterior encontrado, deve ser utilizado em conjunto com outro seletor;
+- prev: permite acessar o elemento anterior encontrado, deve ser utilizado em conjunto com outro seletor;
+
 ## Comandos e asserções no Cypress
+
+São funcionalidades do Cypress que permitem diversas ações do Cypress com a aplicação (queries, assertions, actions e outras)
+
+Assertions: são comandos Cypress que validam estados da aplicação, pausando a aplicação até que a condição seja atendida ou que tenha chegado ao seu tempo limite. Dentre eles temos o .and() e o .should().
+
+A grande maioria dos testes utilizarão queries para acessar os elementos da DOM, e assertions para a validação dos elementos, dados e estados da aplicação. 
 
 ## Descrição das etapas de preparação de um testes de interface, execução e verificação no Cypress
 
