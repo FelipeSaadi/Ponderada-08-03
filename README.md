@@ -1,7 +1,7 @@
 # Ponderada Programação
 
 ## O que é o Cypress e para que serve?
-O Cypress é uma ferramenta de teste de frontend com funcionalidades que auxiliam tanto desenvolvedores quanto para engenheiros de QA.
+O Cypress é uma ferramenta de teste de frontend com funcionalidades que auxiliam tanto desenvolvedores quanto engenheiros de QA.
 
 Ele serve para efetuar testes E2E, testes de componentes, testes de integração e testes unitários, executando todos pelo próprio navegador, resumidamente: facilitar o desenvolvimento com qualidade e as melhorias contínuas em projetos Web.
 
