@@ -23,6 +23,7 @@ Desvantagens:
 - Só é possível utilizar javascript para fazer os testes;
 - Alguns navegadores não possuem suporte para o Cypress, como o Safari e IE;
 - Sem suporte para execução de testes em dispositivos móveis;
+- Não é possível executar testes remotos;
 - Suporte limitado para iFrames.
 
 ## Arquitetura do Cypress
