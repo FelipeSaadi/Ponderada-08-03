@@ -105,7 +105,7 @@ Exemplo de uma das execuções de testes criadas pelo Scaffold (testando uma tab
 
 Agora para fazer testes com scripts customizados, é necessário abrir o projeto em uma IDE.
 
-Acessar o arquivo .spec.cy.ts ou criar um novo.
+Acessar o arquivo spec.cy.ts ou criar um novo.
 
 ![image](https://github.com/FelipeSaadi/Ponderada-08-03/assets/54749257/c83f1e3b-275f-4b5b-9227-a5c8abca21dc)
 
